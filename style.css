@@ -1,0 +1,120 @@
+.body{
+    margin: 0px;
+
+}
+p{
+    margin-top: 40px;
+}
+.header{
+    background-color: #264653;
+    
+    color: white;
+}
+
+.header .container{
+    padding: 120px 0px;
+}
+
+.header-text{
+    padding-top: 10px;
+}
+
+.header img{
+    width: 550px;
+    
+    background-color: #264653;
+}
+
+.modal-btn{
+    background-color: #E76F51;
+    padding: 5px 25px;   
+}
+.modal-content{
+    color: black;
+}
+
+.featured-bike .container img{
+    width: 290px;
+    height: 245px;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+
+.review-title{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.highlight{
+    color: #E76F51;
+}
+
+.review{
+    text-align: center;
+}
+.review .container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.rating{
+    color:#E77C40 ;
+}
+
+.client-name{
+
+    font-size: 16px;
+    color: #23A6F0;
+}
+
+.client-occupation{
+
+    font-size: 14px;
+    color: #252B42;
+    font-weight: bold;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+.faq .container img{
+    width: 430px;
+    
+}
+
+.dropdown{
+    margin: 0px;
+    
+}
+.signup-head{
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+form{
+    padding: 10px 70px;
+    background-color: cadetblue;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+      text-align: center;
+    }
+
+    .header img{
+        width: 350px;
+    }
+    .faq .container img{
+        width: 320px;
+        
+    }
+   .dropdown{
+       text-align: center;
+       white-space: initial;
+       
+   }
+  }
